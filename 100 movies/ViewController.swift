@@ -11,17 +11,19 @@ class ViewController: UIViewController {
 
     var pole = PickANumber()
     
+    @IBOutlet weak var pickedMovieLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        pole.LoadNumbers()
-        print("----------------------------------------------------------")
-        print(pole.movies)
-        print("----------------------------------------------------------")
-        pole.PickNumber()
-        print("Picking movie number: \(pole.pickedMovie)")
         // Do any additional setup after loading the view.
+        pole.LoadNumbers()
     }
 
-
+    @IBAction func movieSelected(_ sender: UIButton) {
+        pole.PickNumber()
+        pickedMovieLabel.text = pole.pickedMovie
+        pickedMovieLabel.isHidden = false
+    }
+    
 }
 
