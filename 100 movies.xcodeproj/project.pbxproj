@@ -13,6 +13,7 @@
 		F63D017A2888957900394123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63D01782888957900394123 /* Main.storyboard */; };
 		F63D017C2888957B00394123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63D017B2888957B00394123 /* Assets.xcassets */; };
 		F63D017F2888957B00394123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63D017D2888957B00394123 /* LaunchScreen.storyboard */; };
+		F63D01872888998300394123 /* PickANumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63D01862888998300394123 /* PickANumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F63D017B2888957B00394123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F63D017E2888957B00394123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F63D01802888957B00394123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63D01862888998300394123 /* PickANumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickANumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F63D01722888957900394123 /* AppDelegate.swift */,
 				F63D01742888957900394123 /* SceneDelegate.swift */,
 				F63D01762888957900394123 /* ViewController.swift */,
+				F63D01862888998300394123 /* PickANumber.swift */,
 				F63D01782888957900394123 /* Main.storyboard */,
 				F63D017B2888957B00394123 /* Assets.xcassets */,
 				F63D017D2888957B00394123 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F63D01772888957900394123 /* ViewController.swift in Sources */,
+				F63D01872888998300394123 /* PickANumber.swift in Sources */,
 				F63D01732888957900394123 /* AppDelegate.swift in Sources */,
 				F63D01752888957900394123 /* SceneDelegate.swift in Sources */,
 			);

@@ -9,8 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var pole = PickANumber()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        pole.LoadNumbers()
+        print("----------------------------------------------------------")
+        print(pole.movies)
+        print("----------------------------------------------------------")
+        pole.PickNumber()
+        print("Picking movie number: \(pole.pickedMovie)")
         // Do any additional setup after loading the view.
     }
 
