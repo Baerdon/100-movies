@@ -41,6 +41,11 @@ struct PickANumber {
         }
         return pole
     }
+    
+    mutating func ResetArray() {
+        movies = FillArray()
+        SaveNumbers()
+    }
 }
 /*
  Struktura pro výběr ještě neshlédnutého filmu.
