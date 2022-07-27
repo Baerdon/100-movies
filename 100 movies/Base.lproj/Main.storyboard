@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6j-Xw-mI2">
-                                <rect key="frame" x="94.5" y="40" width="186" height="168"/>
+                                <rect key="frame" x="94.5" y="70" width="186" height="168"/>
                                 <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="144"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vy-Zv-cHh">
-                                <rect key="frame" x="60.5" y="168" width="254" height="140"/>
+                                <rect key="frame" x="60.5" y="198" width="254" height="140"/>
                                 <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="120"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -45,6 +45,7 @@
                                             </attributes>
                                         </fragment>
                                     </attributedString>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                     <color key="baseBackgroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -57,7 +58,7 @@
                         <constraints>
                             <constraint firstItem="xT6-yu-0HL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0pi-Mj-zMj"/>
                             <constraint firstItem="y6j-Xw-mI2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2MD-8b-GKX"/>
-                            <constraint firstItem="y6j-Xw-mI2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="O8h-v9-PZb"/>
+                            <constraint firstItem="y6j-Xw-mI2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="O8h-v9-PZb"/>
                             <constraint firstItem="xT6-yu-0HL" firstAttribute="top" secondItem="yPi-EM-w8T" secondAttribute="bottom" constant="60" id="Um2-ze-bDc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xT6-yu-0HL" secondAttribute="bottom" constant="60" id="YaM-pX-41p"/>
                             <constraint firstItem="6vy-Zv-cHh" firstAttribute="top" secondItem="y6j-Xw-mI2" secondAttribute="bottom" constant="-40" id="d4n-X6-91s"/>
